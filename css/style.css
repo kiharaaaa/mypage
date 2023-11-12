@@ -1,0 +1,125 @@
+@charset "utf-8";
+
+/* header --------------------------------------------- */
+header{
+    z-index: 10;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 1);
+}
+.headline{
+    line-height: 40px;
+    float: left;
+    font-size: 30px;
+    margin-left: 50px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.header-ul {
+    float: right;
+    overflow: hidden;
+    list-style: none;
+    margin: 0 auto;
+    z-index: 20;
+}
+ul.header-ul li {
+    display: inline-block;
+    padding: 30px 30px 30px 10px;
+}
+li {
+    font-family: 'Noto Sans JP', sans-serif;
+    padding: 5px;
+}
+.header-btn{
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    display:inline-block;
+    border-bottom: 2px solid #666;
+    color: #fff;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-decoration: none
+}
+
+/* body ----------------------------------------------- */
+body{
+    margin: 20px; /* bodyの外側の余白を指定する */
+    padding: 70px 10px 50px 10px; /* bodyの内側の余白を指定する */
+    background-color: #F2F0EA; /* 本文の背景色を指定する */
+    background-color: #F2F0EA;
+}
+.title {
+    margin: 30px 0px 0px 0px;
+    padding: 0.4em 0.5em;/*文字の上下 左右の余白*/
+    color: #333;/*文字色*/
+    background: #f4f4f4;/*背景色*/
+    border-left: solid 5px #666;/*左線*/
+    border-bottom: solid 3px #ccc;/*下線*/
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 25px;
+}
+p {
+    color: #333;
+    font-family: 'Noto Sans JP', sans-serif;
+    padding: 5px;
+}
+h1 {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+h2 {
+    border-bottom: solid 2px #666;
+    width: fit-content;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 20px;
+}
+.link:link {
+    color: #285A80;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.link:visited {
+    color: #285A80;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.table-of-contents {
+    background: #fff;
+    border-radius :8px;
+    box-shadow :0px 0px 5px silver;
+    padding: 0.5em 0.5em 0.5em 2em;
+}
+ul.table-of-contents li{
+    line-height: 1.5;
+    padding: 0.5em 0;
+}
+a.anchor{
+    display: block;
+    padding-top: 60px;
+    margin-top: -60px;
+}
+
+/* footer --------------------------------------------- */
+footer{
+    margin: 30px 0px 0px 0px;
+    width: 100%;
+    color: #777;
+    text-align: center;
+}
+ul.footer-ul li {
+    display: inline-block;
+    padding: 0px 10px 0px 10px;
+}
+.footer-btn{
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+    color: #777;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-decoration: none
+}

@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>kiharaaaa-Activitys</title>
+        <title>木原 康生 KIHARA Kosei - Activitys</title>
         <link rel="stylesheet" href="css/style.css">
     </head>
 
@@ -12,14 +12,22 @@
 
     <header>
         <h1 class="headline">
-            <a>Kosei Kihara - Activitys</a>
+            <a>KIHARA Kosei - Activitys</a>
         </h1>
-        <ul class="header-ul">
-            <li><a href="./home.html" class="header-btn">Home</a></li>
-            <li><a href="./activitys.html" class="header-btn">Activitys</a></li>
-            <li><a href="./works.html" class="header-btn">Works</a></li>
-        </ul>
+        <div class="header_responsive">
+            <div class="menu_line"></div>
+            <div class="menu_line"></div>
+            <div class="menu_line"></div>
+        </div>
+        <nav class="header_nav">
+            <ul class="header-ul">
+                <li><a href="./home.html" class="header-btn">Home</a></li>
+                <li><a href="./activitys.html" class="header-btn">Activitys</a></li>
+                <li><a href="./works.html" class="header-btn">Works</a></li>
+            </ul>
+        </nav>
     </header>
+    <script src="js/style.js"></script>
 
     <!--------------------------------------------------------------------->
 
@@ -38,7 +46,7 @@
         <h1 class="title">授業</h1>
         <h2>画像・映像コンテンツ演習</h2>
         <p>
-            経済産業省の「社会人基礎力を育成する授業30選」に選定された授業である「画像・映像コンテンツ演習」を1〜4まで全て履修した。 <br>
+            経済産業省の<b>「社会人基礎力を育成する授業30選」</b>に選定された授業である「画像・映像コンテンツ演習」を1〜4まで<b>全て履修した。</b><br>
             この授業では4名程度のチームを構成し、規定のテーマについて基礎実習・仕様設計・プログラム開発・実行と評価・プレゼンテーション・レポート作成から成るプロジェクト型学習を実施した。<br><br>
             そのうち、<b><font color="red">演習2では審査員優秀賞、演習4では審査員最優秀賞を獲得</font></b>した。
         </p>
@@ -73,12 +81,12 @@
             以下のプログラミング言語の演習授業の全てにおいて、<b><font color="red">最高評価であるA評価を獲得</font></b>し、プログラミング言語の修得に努めた。
         </p>
         <ul>
-            <li>Cプログラミング初級演習 (1年前期 C言語)</li>
-            <li>Cプログラミング中級演習 (1年後期 C言語)</li>
-            <li>プログラミング上級演習 (2年前期 C++)</li>
-            <li>アルゴリズムとデータ構造演習 (2年後期 Python)</li>
-            <li>基盤系オブジェクト指向プログラミング演習 (3年前期 Java)</li>
-            <li>開発系プログラミング演習 (3年後期 Java)</li>
+            <li>Cプログラミング初級演習 (C言語)</li>
+            <li>Cプログラミング中級演習 (C言語)</li>
+            <li>プログラミング上級演習 (C++)</li>
+            <li>アルゴリズムとデータ構造演習 (Python)</li>
+            <li>基盤系オブジェクト指向プログラミング演習 (Java)</li>
+            <li>開発系プログラミング演習 (Java)</li>
         </ul>
 
         <!----------------------------------------------------------------->
@@ -90,7 +98,7 @@
             指導教員: <a class="link" href="https://c-research.chuo-u.ac.jp/html/100003165_ja.html" target="_blank">鈴木寿 教授</a> <br>
         </p>
         <p>
-            専門: 医用工学 <br>
+            専門分野: 医用工学 <br>
             学位論文テーマ: 一般化Hough変換による正常細胞外縁の楕円マーキング
         </p>
 
@@ -99,7 +107,7 @@
         <a name="activitys-脳トレ" class="anchor"></a>
         <h1 class="title">ゲームコンペティション</h1>
         <br>
-        <img src="img/game_4.png" width=30%>
+        <img src="img/game_4.png">
         <p>
             一般社団法人 日本電子機器補修協会主催である、シニア世代の認知予防・脳年齢活性化を目的として始まった「全国電子工学系学校脳トレゲーム制作コンペティション」に第4, 5回の計2回参加した。
             <br>
@@ -151,16 +159,22 @@
         <h2>botの作成</h2>
         <p>Python, GAS等を利用し、Slackやdiscordのbot作成に取り組んでいる。</p>
         <ul>
-            <li><a class="link" href="./works.html#works-鍵管理">研究室の鍵管理bot</a></li>
-            <li><a class="link" href="./works.html#works-競プロ">(友人間での) 競技プログラミング進捗管理bot</a></li>
+            <li>
+                <a class="link" href="./works.html#works-鍵管理">研究室の鍵管理bot</a>
+                研究室の鍵の場所がわかるようにするため Slack の bot や Raspberry Pi を用いた管理方法を作成した。
+            </li>
+            <li>
+                <a class="link" href="./works.html#works-競プロ">競技プログラミング進捗管理bot</a>
+                友人間での競技プログラミングへのモチベーション向上のために discord の bot を作成した。
+            </li>
         </ul>
 
         <h2>その他</h2>
         <ul>
             <li>
-                <a class="link" href="./works.html#works-筋電位">筋電位測定によるじゃんけん必勝マシンの作成</a>
+                <a class="link" href="./works.html#works-筋電位">筋電位測定によるじゃんけん必勝マシン</a>
                 <br>
-                簡易筋電計を利用し、手をグー・チョキ・パーの形にしたときの腕の筋電位を測定・分析を行った。
+                簡易筋電計を利用し、手をグー・チョキ・パーの形にしたときの腕の筋電位を測定及び分析を行った。
             </li>
         </ul>
 
@@ -176,7 +190,8 @@
         </p>
         <h2>ICPC (国際大学対抗プログラミングコンテスト)</h2>
         <p>
-            2022,2023年度のICPC国内予選に参加した。（結果は振るわなかった、、、）
+            2022,2023年度のICPC国内予選に参加した。<br>
+            (残念ながら予選を突破することはできなかった)
         </p>
 
         <!----------------------------------------------------------------->
